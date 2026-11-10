@@ -1,0 +1,257 @@
+
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IT Markaz — kompyuter kurslari va xizmatlari</title>
+<style>
+:root{--bg:#f3effa;--surface:#ffffff;--ink:#231a3a;--muted:#5e5478;--accent:#6d28d9;--line:#d9cff0;--hero:#2a1659;--hero-ink:#f5efff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#150f26;--surface:#1f1738;--ink:#ece6fa;--muted:#b0a4d0;--accent:#c4a1ff;--line:#382c5e;--hero:#0f0a20;--hero-ink:#f5efff}}
+:root[data-theme="dark"]{--bg:#150f26;--surface:#1f1738;--ink:#ece6fa;--muted:#b0a4d0;--accent:#c4a1ff;--line:#382c5e;--hero:#0f0a20;--hero-ink:#f5efff}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif;line-height:1.65}
+header{background:linear-gradient(135deg,var(--hero),#5b21b6);color:var(--hero-ink);padding:64px 20px 56px}
+.wrap{max-width:760px;margin:0 auto}
+h1,h2{font-family:"Courier New",Consolas,monospace}
+h1{font-size:clamp(2.2rem,7vw,3.6rem);line-height:1.1;margin:0 0 16px;letter-spacing:-.02em}
+header p{font-size:1.15rem;max-width:56ch;margin:0;opacity:.9}
+main{padding:40px 20px 64px}
+section{margin-bottom:44px}
+h2{font-size:1.5rem;margin:0 0 12px;color:var(--accent)}
+p{margin:0 0 12px;max-width:68ch}
+.parts{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.part{background:var(--surface);border-left:4px solid var(--accent);padding:14px 16px}
+.part b{display:block;margin-bottom:4px}
+.part span{color:var(--muted);font-size:.95rem}
+.table-scroll{overflow-x:auto;background:var(--surface);border:1px solid var(--line)}
+table{border-collapse:collapse;width:100%;min-width:480px}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line)}
+th{color:var(--accent)}
+tr:last-child td{border-bottom:0}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-block;padding:14px 26px;border-radius:10px;font-weight:700;text-decoration:none;background:#fbbf24;color:#2a1659}
+.btn.alt{background:transparent;color:var(--hero-ink);border:2px solid #c4a1ff}
+.btn:focus-visible{outline:3px solid #fff;outline-offset:3px}
+header h1{font-size:clamp(2.6rem,10vw,5rem)}
+.stats{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin-top:36px}
+.stat{border:1px solid rgba(255,255,255,.3);border-radius:10px;padding:12px 14px;font-weight:600}
+.big{font-size:1.9rem;font-weight:800;margin:56px 0 18px;padding-top:28px;border-top:3px solid var(--accent)}
+.contact{background:var(--hero);color:var(--hero-ink);padding:24px;border-radius:12px}
+.contact h2{color:#fbbf24}
+footer{padding:24px 20px;text-align:center;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<h1>IT Markaz</h1>
+<p>Kompyuter kurslari, ta’mirlash va IT xizmatlari bir joyda. Noldan o’rganing, kasb egallang, texnikangizni ishonchli qo’llarga topshiring.</p>
+<div class="btns"><a class="btn" href="#kurslar">Kurslarni ko’rish</a><a class="btn alt" href="#aloqa">Bog’lanish</a></div>
+<div class="stats"><div class="stat">Kurslar</div><div class="stat">Ta’mirlash</div><div class="stat">Kompyuter yig’ish</div><div class="stat">Tarmoq va Wi-Fi</div></div>
+</div></header>
+<main><div class="wrap">
+
+<section id="kurslar">
+<h2>Kurslarimiz</h2>
+<div class="parts">
+<div class="part"><b>Kompyuter savodxonligi</b><span>Boshlovchilar uchun: fayllar, internet, elektron pochta.</span></div>
+<div class="part"><b>Ofis dasturlari</b><span>Word, Excel va PowerPoint bilan ishlash.</span></div>
+<div class="part"><b>Dasturlash</b><span>Python va veb-dasturlash asoslari.</span></div>
+<div class="part"><b>Grafik dizayn</b><span>Tasvir va maket tayyorlash asoslari.</span></div>
+<div class="part"><b>Kiberxavfsizlik asoslari</b><span>Parollar, fishing va shaxsiy ma’lumotlar himoyasi.</span></div>
+<div class="part"><b>Bolalar uchun IT</b><span>O’yin shaklida dasturlash va kompyuter bilan tanishuv.</span></div>
+</div>
+</section>
+
+<section>
+<h2>Xizmatlarimiz</h2>
+<div class="parts">
+<div class="part"><b>Kompyuter va noutbuk ta’miri</b><span>Diagnostika, tozalash, qismlarni almashtirish.</span></div>
+<div class="part"><b>Windows o’rnatish</b><span>Tizim va kerakli dasturlarni o’rnatish.</span></div>
+<div class="part"><b>Kompyuter yig’ish</b><span>Ish, o’qish yoki o’yin uchun mos komplekt tanlash.</span></div>
+<div class="part"><b>Tarmoq va Wi-Fi</b><span>Yo’riqnoma sozlash, ofis tarmog’ini qurish.</span></div>
+<div class="part"><b>Ma’lumotlarni tiklash</b><span>O’chib qolgan fayllarni qaytarishga urinish.</span></div>
+<div class="part"><b>Veb-sayt yaratish</b><span>Biznes uchun sodda va tushunarli saytlar.</span></div>
+</div>
+</section>
+
+<section>
+<h2>Nega aynan biz?</h2>
+<p>Amaliy mashg’ulotlar, tushunarli tushuntirish va har bir o’quvchiga individual e’tibor. Ta’mirlashda esa avval muammo aniqlanadi, keyin narx aytiladi.</p>
+</section>
+
+<section id="aloqa" class="contact">
+<h2>Bog’lanish</h2>
+<p>Telefon: +998 XX XXX XX XX<br>Telegram: @it_markaz<br>Manzil: shu yerga manzilingizni yozing<br>Ish vaqti: Du–Sha, 9:00–18:00</p>
+</section>
+
+<div class="big">Kompyuter haqida bilim bazasi</div>
+
+<section>
+<h2>Kompyuter nima?</h2>
+<p>Kompyuter — ma’lumotlarni qabul qiladigan, ularni dastur asosida qayta ishlaydigan va natijani ko’rsatadigan elektron qurilma. U matn yozish, hisob-kitob, internet, o’yin va boshqa ko’p vazifalarni bajaradi.</p>
+</section>
+
+<section>
+<h2>Asosiy qismlari</h2>
+<div class="parts">
+<div class="part"><b>Protsessor (CPU)</b><span>Kompyuterning “miyasi”: buyruqlarni bajaradi va hisoblaydi.</span></div>
+<div class="part"><b>Operativ xotira (RAM)</b><span>Ishlayotgan dasturlar ma’lumotini vaqtincha saqlaydi.</span></div>
+<div class="part"><b>Doimiy xotira (SSD/HDD)</b><span>Fayllar va dasturlarni uzoq muddat saqlaydi.</span></div>
+<div class="part"><b>Videokarta (GPU)</b><span>Tasvir, video va o’yin grafikasini tezkor chizadi.</span></div>
+<div class="part"><b>Anakart</b><span>Barcha qismlarni bir-biriga ulaydigan asosiy plata.</span></div>
+<div class="part"><b>Quvvat bloki</b><span>Elektr energiyasini qismlarga mos kuchlanishda yetkazadi.</span></div>
+</div>
+</section>
+
+<section>
+<h2>Kompyuter turlari</h2>
+<div class="table-scroll"><table>
+<tr><th>Turi</th><th>Xususiyati</th><th>Kimga mos</th></tr>
+<tr><td>Statsionar (PC)</td><td>Kuchli, yangilash oson</td><td>O’yin, dizayn, ish</td></tr>
+<tr><td>Noutbuk</td><td>Ko’chma, batareyali</td><td>O’qish, sayohat, ofis</td></tr>
+<tr><td>Monoblok</td><td>Ekran va tizim bitta korpusda</td><td>Uy va ofis</td></tr>
+<tr><td>Server</td><td>Doimiy ishlaydi, ko’p foydalanuvchiga xizmat qiladi</td><td>Saytlar, korxonalar</td></tr>
+</table></div>
+</section>
+
+<section>
+<h2>Windows 1 dan 11 gacha: ish stoli qanday o’zgargan</h2>
+<p>Quyida har bir versiyaning ish stoli ko’rinishi qisqacha tasvirlangan.</p>
+<div class="parts">
+<div class="part"><b>Windows 1.0 (1985)</b><span>Ish stoli yo’q: oynalar yonma-yon joylashgan, pastda belgilar qatori.</span></div>
+<div class="part"><b>Windows 2.0 (1987)</b><span>Oynalar bir-birining ustiga chiqa boshladi, yorliqlar paydo bo’ldi.</span></div>
+<div class="part"><b>Windows 3.0 / 3.1 (1990–1992)</b><span>Program Manager: guruh oynalari va rangli piktogrammalar.</span></div>
+<div class="part"><b>Windows 95 (1995)</b><span>Birinchi “Start” tugmasi, vazifalar paneli va kulrang ish stoli.</span></div>
+<div class="part"><b>Windows 98 (1998)</b><span>Tezkor ishga tushirish paneli, Internet Explorer ish stoliga qo’shildi.</span></div>
+<div class="part"><b>Windows XP (2001)</b><span>Yashil Start tugmasi, ko’k panel va mashhur yashil tepalik fon rasmi.</span></div>
+<div class="part"><b>Windows Vista (2007)</b><span>Shaffof “Aero” oynalari va yon panel vidjetlari.</span></div>
+<div class="part"><b>Windows 7 (2009)</b><span>Shisha uslubidagi panel, ilovalarni biriktirish va ixchamroq ko’rinish.</span></div>
+<div class="part"><b>Windows 8 (2012)</b><span>Plitkali Start ekrani, ish stoli esa alohida ilova sifatida qoldi.</span></div>
+<div class="part"><b>Windows 10 (2015)</b><span>Start menyusi qaytdi, plitkalar bilan birga; tekis, yassi dizayn.</span></div>
+<div class="part"><b>Windows 11 (2021)</b><span>Markazdagi Start tugmasi, yumaloq burchaklar va yangi vidjetlar.</span></div>
+</div>
+<p style="margin-top:12px;color:var(--muted);font-size:.95rem">Haqiqiy ekran suratlarini bu sahifaga qo’shib bo’lmaydi (tashqi rasmlar bloklanadi va ular Microsoft’ga tegishli). Ularni chatda alohida ko’rsatib beraman.</p>
+</section>
+
+<section>
+<h2>Videokartalar</h2>
+<p>Videokarta (GPU) tasvirni hisoblab, ekranga chiqaradi. Uchta asosiy ishlab chiqaruvchi bor: NVIDIA, AMD va Intel.</p>
+<div class="table-scroll"><table>
+<tr><th>Model</th><th>Ishlab chiqaruvchi</th><th>Yili</th><th>Izoh</th></tr>
+<tr><td>GeForce RTX 4090</td><td>NVIDIA</td><td>2022</td><td>Eng kuchli iste’molchi kartalaridan biri</td></tr>
+<tr><td>GeForce RTX 5090</td><td>NVIDIA</td><td>2025</td><td>Blackwell avlodi, eng yuqori darajadagi karta</td></tr>
+<tr><td>Radeon RX 7900 XTX</td><td>AMD</td><td>2022</td><td>RDNA 3 arxitekturasi, 24 GB xotira</td></tr>
+<tr><td>Arc B580</td><td>Intel</td><td>2024</td><td>Arzon narxli o’yin kartasi</td></tr>
+</table></div>
+</section>
+
+<section>
+<h2>Protsessorlar</h2>
+<p>Protsessor kompyuterning hisoblash markazi. Birinchi tijoriy mikroprotsessor Intel 4004 bo’lib, 1971-yilda chiqqan. Hozirgi eng mashhur oilalar:</p>
+<div class="table-scroll"><table>
+<tr><th>Model</th><th>Ishlab chiqaruvchi</th><th>Yili</th><th>Izoh</th></tr>
+<tr><td>Core i9-14900K</td><td>Intel</td><td>2023</td><td>24 yadroli, yuqori chastotali</td></tr>
+<tr><td>Ryzen 9 9950X</td><td>AMD</td><td>2024</td><td>16 yadroli, Zen 5 arxitekturasi</td></tr>
+<tr><td>Apple M4</td><td>Apple</td><td>2024</td><td>Kam energiya sarflaydi, Mac va iPad’larda</td></tr>
+</table></div>
+</section>
+
+<section>
+<h2>Dasturiy ta’minot</h2>
+<p>Kompyuter faqat qurilmadan iborat emas. Operatsion tizim (Windows, macOS, Linux) qurilmani boshqaradi, ilovalar esa aniq vazifalarni bajaradi: brauzer, matn muharriri, o’yinlar va boshqalar.</p>
+</section>
+
+<section>
+<h2>Foydali maslahatlar</h2>
+<p>Muhim fayllardan muntazam nusxa oling, dasturlarni yangilab turing, antivirusdan foydalaning va noma’lum havolalarni ochmang. Kompyuter ichini vaqti-vaqti bilan changdan tozalash qizib ketishning oldini oladi.</p>
+</section>
+
+<section>
+<h2>Kompyuterlar tarixi</h2>
+<div class="table-scroll"><table>
+<tr><th>Yil</th><th>Voqea</th></tr>
+<tr><td>1837</td><td>Charlz Bebbij “Analitik mashina”ni loyihalaydi — zamonaviy kompyuter g’oyasining poydevori</td></tr>
+<tr><td>1945–1946</td><td>ENIAC yaratildi: birinchi yirik universal elektron hisoblash mashinalaridan biri, butun xonani egallagan</td></tr>
+<tr><td>1971</td><td>Intel 4004 — birinchi tijoriy mikroprotsessor</td></tr>
+<tr><td>1981</td><td>IBM PC chiqdi va shaxsiy kompyuterlar keng tarqaldi</td></tr>
+<tr><td>1984</td><td>Apple Macintosh sichqoncha va grafik interfeysni ommalashtirdi</td></tr>
+<tr><td>1991</td><td>Linux yadrosi birinchi marta e’lon qilindi</td></tr>
+<tr><td>2007</td><td>Smartfonlar davri boshlandi: kompyuter cho’ntakka sig’a boshladi</td></tr>
+</table></div>
+</section>
+
+<section>
+<h2>Ikkilik tizim va xotira birliklari</h2>
+<p>Kompyuter hamma narsani 0 va 1 raqamlari bilan saqlaydi. Eng kichik birlik — bit. Sakkiz bit bir baytni tashkil qiladi.</p>
+<div class="table-scroll"><table>
+<tr><th>Birlik</th><th>Hajmi</th></tr>
+<tr><td>1 bayt</td><td>8 bit</td></tr>
+<tr><td>1 kilobayt (KB)</td><td>1024 bayt</td></tr>
+<tr><td>1 megabayt (MB)</td><td>1024 KB</td></tr>
+<tr><td>1 gigabayt (GB)</td><td>1024 MB</td></tr>
+<tr><td>1 terabayt (TB)</td><td>1024 GB</td></tr>
+</table></div>
+</section>
+
+<section>
+<h2>Kiritish va chiqarish qurilmalari</h2>
+<div class="parts">
+<div class="part"><b>Klaviatura</b><span>Matn va buyruqlarni kiritish uchun.</span></div>
+<div class="part"><b>Sichqoncha / sensorli panel</b><span>Ekrandagi ko’rsatkichni boshqaradi.</span></div>
+<div class="part"><b>Mikrofon va veb-kamera</b><span>Ovoz va tasvirni kompyuterga uzatadi.</span></div>
+<div class="part"><b>Monitor</b><span>Natijani tasvir ko’rinishida chiqaradi.</span></div>
+<div class="part"><b>Printer</b><span>Hujjatlarni qog’ozga chop etadi.</span></div>
+<div class="part"><b>Dinamik va quloqchin</b><span>Ovozni eshittiradi.</span></div>
+</div>
+</section>
+
+<section>
+<h2>Operatsion tizimlar</h2>
+<div class="table-scroll"><table>
+<tr><th>Tizim</th><th>Xususiyati</th></tr>
+<tr><td>Windows</td><td>Eng keng tarqalgan, shaxsiy kompyuterlar uchun, ko’p dastur va o’yinlar bor</td></tr>
+<tr><td>macOS</td><td>Apple kompyuterlari uchun, qurilma bilan chambarchas bog’langan</td></tr>
+<tr><td>Linux</td><td>Ochiq kodli, serverlarda va dasturchilar orasida mashhur</td></tr>
+<tr><td>Android / iOS</td><td>Telefon va planshetlar uchun mobil tizimlar</td></tr>
+</table></div>
+</section>
+
+<section>
+<h2>Dasturlash tillari</h2>
+<div class="parts">
+<div class="part"><b>C (1972)</b><span>Tizim dasturlari va operatsion tizimlar yaratishda ishlatiladi.</span></div>
+<div class="part"><b>Python (1991)</b><span>O’rganish oson; ma’lumotlar tahlili va sun’iy intellektda mashhur.</span></div>
+<div class="part"><b>Java (1995)</b><span>Korxona dasturlari va Android ilovalarida keng qo’llanadi.</span></div>
+<div class="part"><b>JavaScript (1995)</b><span>Veb-saytlarni jonlantiradigan til.</span></div>
+</div>
+</section>
+
+<section>
+<h2>Internet va tarmoqlar</h2>
+<p>Kompyuterlar o’zaro tarmoq orqali bog’lanadi. Internetning kashfiyotchisi 1969-yilda ishga tushgan ARPANET tarmog’i hisoblanadi. 1989–1991-yillarda Tim Berners-Li Butunjahon o’rgimchak to’rini (WWW) yaratdi va saytlar paydo bo’ldi. Uyda tarmoqqa odatda Wi-Fi yoki kabel orqali ulanamiz.</p>
+</section>
+
+<section>
+<h2>Xavfsizlik</h2>
+<div class="parts">
+<div class="part"><b>Kuchli parol</b><span>Uzun va har sayt uchun alohida parol ishlating.</span></div>
+<div class="part"><b>Ikki bosqichli tasdiqlash</b><span>Parol bilinib qolsa ham hisobni himoya qiladi.</span></div>
+<div class="part"><b>Yangilanishlar</b><span>Tizim va dasturlarni yangilab turing.</span></div>
+<div class="part"><b>Fishing</b><span>Soxta xat va havolalarga e’tibor bering.</span></div>
+</div>
+</section>
+
+<section>
+<h2>Kelajak</h2>
+<p>Kompyuterlar sun’iy intellekt uchun maxsus protsessorlar bilan jihozlanmoqda. Kvant kompyuterlar ayrim murakkab masalalarni oddiy kompyuterdan ancha tez hal qilishi mumkin, ammo ular hozircha asosan tadqiqot bosqichida.</p>
+</section>
+
+</div></main>
+<footer>IT Markaz — kurslar, ta’mirlash va IT xizmatlari<br>Created by Moxirjanov Uchqunbek</footer>
+</body>
+</html>
+
